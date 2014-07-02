@@ -103,7 +103,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #83b81a;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -133,6 +133,10 @@ strong {
   font-weight: bold;
 }
 
+h3 {
+  text-align: center;
+}
+
 img {
   position: relative;
   margin: 0 auto;
@@ -141,11 +145,13 @@ img {
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 
+  /**
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+  **/
 }
 
 p img {
@@ -277,7 +283,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #83b81a no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -306,7 +312,7 @@ Full-Width Styles
 }
 
 #project_tagline {
-  color: #fff;
+  color: #83b81a;
   font-size: 24px;
   font-weight: 300;
   background: none;
